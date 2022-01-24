@@ -1,6 +1,8 @@
 # **Installation**
 
+```
 npm i cashfree-dropjs
+```
 
 Note: add --save if you are using npm < 5.0.0
 
