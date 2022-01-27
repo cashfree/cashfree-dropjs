@@ -13,10 +13,11 @@ Drop is our pre-built UI solution for accepting payments. Drop works by displayi
 
 ## Basic Implementation:
 ```
-import { cashfreeProd, cashfreeSandbox } from 'cashfree-dropjs';
+import { cashfreeSandbox } from 'cashfree-dropjs';
+//use import { cashfreeProd } from 'cashfree-dropjs';
 
 let testCashfree = new cashfreeSandbox.Cashfree();
-let prodCashfree = new cashfreeProd.Cashfree();
+//let prodCashfree = new cashfreeProd.Cashfree();
 
 testCashfree.initialiseDropin(element, {
     orderToken : string,
