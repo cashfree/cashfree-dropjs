@@ -19,11 +19,11 @@ let testCashfree = new cashfreeSandbox.Cashfree();
 let prodCashfree = new cashfreeProd.Cashfree();
 
 testCashfree.initialiseDropin(element, {
-    orderToken,
+    orderToken : string,
     onSuccess: function,
     onFailure: function,
-    components,
-    style,
+    components: Array,
+    style: object,
 });
 ```
 
