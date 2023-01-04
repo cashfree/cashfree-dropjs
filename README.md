@@ -1,4 +1,5 @@
-> `This package is deprecated. Use our latest SDK to integrate the Cashfree Payment Gateway into your application.`
+| ⚠️  This package is deprecated. Use our latest SDK to integrate the Cashfree Payment Gateway into your application. |
+| --- |
 NPM PACKAGE URL: https://www.npmjs.com/package/cashfree-pg-sdk-javascript
 GITHUB URL: https://github.com/cashfree/cashfree-pg-sdk-javascript
 
